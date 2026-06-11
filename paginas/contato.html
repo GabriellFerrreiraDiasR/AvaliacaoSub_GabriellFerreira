@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contato</title>
+
+    <link rel="stylesheet"
+          href="../estilos/layout.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>
+
+            <img src="../midias/logo.png"
+                 alt="Logo NexusTech"
+                 class="logo">
+
+            NexusTech Solutions
+
+        </h1>
+
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="servicos.html">Serviços</a>
+                </li>
+
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="layout">
+
+        <aside>
+
+            <h2>Contato</h2>
+
+            <p>
+                Entre em contato com nossa equipe e
+                solicite um orçamento sem compromisso.
+            </p>
+
+            <br>
+
+            <h3>Atendimento</h3>
+
+            <p>
+                Segunda a Sexta
+                <br>
+                08:00 às 18:00
+            </p>
+
+            <br>
+
+            <h3>Email</h3>
+
+            <p>
+                contato@nexustech.com.br
+            </p>
+
+            <br>
+
+            <h3>Telefone</h3>
+
+            <p>
+                (11) 99999-9999
+            </p>
+
+        </aside>
+
+        <main>
+
+            <section>
+
+                <h2>CONTATE-NOS</h2>
+
+                <p>
+                    Preencha o formulário abaixo para que
+                    possamos entrar em contato.
+                </p>
+
+            </section>
+
+            <section>
+
+                <form>
+
+                    <label for="nome">
+                        Nome*
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite seu nome">
+
+                    <label for="email">
+                        Email*
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu email">
+
+                    <label for="telefone">
+                        Telefone
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefone"
+                        placeholder="Digite seu telefone">
+
+                    <label for="endereco">
+                        Endereço
+                    </label>
+
+                    <input
+                        type="text"
+                        id="endereco"
+                        placeholder="Digite seu endereço">
+
+                    <label for="nascimento">
+                        Data de Nascimento
+                    </label>
+
+                    <input
+                        type="date"
+                        id="nascimento">
+
+                    <label for="origem">
+                        Onde nos conheceu?
+                    </label>
+
+                    <select id="origem">
+
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option>
+                            Google
+                        </option>
+
+                        <option>
+                            Instagram
+                        </option>
+
+                        <option>
+                            Facebook
+                        </option>
+
+                        <option>
+                            Indicação de Amigos
+                        </option>
+
+                        <option>
+                            LinkedIn
+                        </option>
+
+                    </select>
+
+                    <label for="mensagem">
+                        Mensagem
+                    </label>
+
+                    <textarea
+                        id="mensagem"
+                        placeholder="Digite sua mensagem"></textarea>
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="novidades">
+
+                        Desejo receber novidades e promoções
+
+                    </label>
+
+                    <button
+                        type="button"
+                        onclick="mostrarDados()">
+
+                        Exibir Dados
+
+                    </button>
+
+                    <button
+                        type="button"
+                        onclick="limparDados()">
+
+                        Limpar Dados
+
+                    </button>
+
+                </form>
+
+            </section>
+
+            <section id="saida">
+
+                <h2>Dados Informados</h2>
+
+                <p>
+                    Os dados preenchidos aparecerão aqui.
+                </p>
+
+            </section>
+
+        </main>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 NexusTech Solutions.
+            Todos os direitos reservados.
+        </p>
+
+        <p>
+
+            <a href="#">
+                Facebook
+            </a>
+
+            |
+
+            <a href="#">
+                Instagram
+            </a>
+
+            |
+
+            <a href="#">
+                LinkedIn
+            </a>
+
+        </p>
+
+    </footer>
+
+    <script src="../javascript/contato.js"></script>
+
+</body>
+
+</html>
